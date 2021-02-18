@@ -1,12 +1,12 @@
 # MouseLabDB
 
-A cloud-based solution for storing and sorting lab animal information
+A database-based solution for storing and sorting lab animal information
 
 <h2>Creators</h2>
 Jessie Chen (<a href="mailto:jchen18@luc.edu">jchen18@luc.edu</a>) - Bioinformatics Consultant</br>
 Andrew Himebaugh (<a href="mailto:ahimebaugh1@luc.edu">ahimebaugh1@luc.edu</a>) - Interface Engineer</br>
 Sam Jaros (<a href="mailto:sjaros@luc.edu">sjaros@luc.edu</a>) - Design and Concept</br>
-Kenzo Scheerlinck (<a href="mailto:kscheerlinck@luc.edu">kscheerlinck@luc.edu</a>) - Database Manager</br>
+Kenzo Scheerlinck (<a href="mailto:kscheerlinck@luc.edu">kscheerlinck@luc.edu</a>) - Backend Engineer</br>
 
 <h2>Abstract</h2>
 The goal of this project is to create a database for the management and tracking of lab animals, their genotypes, their family history, and other relevant identifiers. Much time and effort is taken to track lab animals of all types as most laboratories simply use a notebook or a shared excel sheet. MouseLab DB aims to allow lab technicians to quickly add, lookup, and track a colony just as they would with legacy options while adding in data validation, user authentication, remote access, and the possibility to integrate with more complex colony-planning algorithms.<br><br>
@@ -36,12 +36,6 @@ Create a text-based web interface for interacting with the database<br>
 Add user authentication to the web interface<br>
 Create a GUI for interacting with the database<br>
 
-<h2>Related Projects</h2>
-<b><a href="https://dev.mysql.com/doc/employee/en/">Employees Sample Database</a></b> (freely available, open source)<br>
-This database, provided by MySQL, can serve as a guide for downloading, installing, and setting up our MySQL database. There is extensive documentation available about this relatively large dataset, which may be useful in the future.<br><br>
-
+<h2>Related Project</h2>
 <b><a href="https://github.com/samtools/htsjdk/blob/master/src/main/java/htsjdk/variant/variantcontext/Genotype.java">GenotypeBuilder</a></b> (freely available, open source)<br>
-This class and its corresponding “Genotype” and “Allele” classes provide a comprehensive way of storing genetic information. Though these classes have many more methods than we would need, we may use their code structure while writing our own classes.<br>
-
-<b><a href="https://firebase.google.com/docs/auth/web/start">Firebase Authentication</a></b> (freely available, closed source)<br>
-This is a service provided by Google which allows websites to use Google’s authentication services to verify user identity. This requires all users using MouseLab DB to have a Google account, but we believe this is a reasonable expectation.
+This class and its corresponding “Genotype” and “Allele” classes provide a comprehensive way of storing genetic information. Though these classes have many more methods than we would need, we may use their code structure while writing our own classes.
